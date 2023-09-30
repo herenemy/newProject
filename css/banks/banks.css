@@ -1,0 +1,57 @@
+.banks {
+    background-color: #f5f5f5;
+}
+
+.banks__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.banks__box {
+    width: 387px;
+    height: 450px;
+    border: 1px solid #ccc;
+}
+
+.banks__content {
+    padding: 27px;
+}
+
+.banks__img {
+    margin-bottom: 25px;
+}
+
+.banks__img > img {
+    width: 250px;
+    height: 80px;
+}
+
+.box__info {
+
+}
+
+.box__text {
+    padding-bottom: 25px;
+    line-height: 25px;
+    border-bottom: 1px solid #ccc;
+}
+
+.box__footer {
+    padding: 25px 0;
+}
+
+.box__footer > a {
+    color: #000;
+    font-size: 15px;
+}
+
+.box__footer > a:hover {
+    text-decoration: underline;
+}
+
+.box__footer div {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
